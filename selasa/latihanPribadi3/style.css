@@ -1,0 +1,54 @@
+*{transition:all 0.3s ease-in-out;}
+
+.container{
+  clear:both;
+  overflow:auto;
+}
+
+nav{float:right;}
+
+.logo img{float:left;}
+
+ul li{
+  display: inline-block; padding:10px;
+  font-size:20px; font-family:raleway;
+}
+
+ul li:hover{
+  color:orange;
+
+}
+
+.title {
+  margin: auto;
+  font-size:30pt;
+}
+
+#article-list {
+  box-sizing: content-box;
+  width: 900px;
+  height: 700px;
+  padding: 30px;
+  /* border: 1px solid; */
+  margin: auto;
+  background: white;
+display: :block;
+
+}
+
+#sample-pattern {
+  background-image: url("sample-pattern.png");
+  background-color: #cccccc;
+}
+footer {
+
+  position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+
+
+}
